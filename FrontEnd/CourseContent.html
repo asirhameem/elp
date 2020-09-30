@@ -1,0 +1,133 @@
+<html>
+
+<head>
+    <title>Course Content</title>
+</head>
+
+
+<body>
+    <div id="PostNotice">
+        <fieldset>
+            <h2>Important Notice </h2>
+
+            <table border="0">
+
+
+                <tr>
+                    <td width="150px"><input type="text" id="postDescription" placeholder="Notice Description"></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <br>
+                        <input type="button" value="Upload Notice" name="upload_btn" id="btnNotice" style="margin-left: 200px">
+                        <div id="uploadmessage"></div>
+                    </td>
+                </tr>
+
+            </table>
+
+        </fieldset>
+    </div>
+
+    <div id="fileUpload">
+        <form enctype="multipart/form-data">
+            <fieldset>
+                <h2>Upload Course Materials</h2>
+
+                <table border="0">
+
+
+                    <tr>
+                        <td width="150px"><input type="text" id="fileName" placeholder="File Description"></td>
+                    </tr>
+
+                    <tr>
+                        <td width="150px"><input type="file" id="uploadfile"></td>
+                    </tr>
+
+                </table>
+                <br>
+                <input type="button" value="Upload File" name="upload_btn" id="upload_btn" style="margin-left: 200px">
+                <div id="uploadmessage">
+
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <div id="videoUpload">
+        <form enctype="multipart/form-data">
+            <fieldset>
+                <h2>Upload Course Video Materials</h2>
+
+                <table border="0">
+
+
+                    <tr>
+                        <td width="150px"><input type="text" id="videoName" placeholder="File Description"></td>
+                    </tr>
+
+                    <tr>
+                        <td width="150px"><input type="file" id="videoFile"></td>
+                    </tr>
+
+                </table>
+                <br>
+                <input type="button" value="Upload Video" name="upload_btn" id="video_btn" style="margin-left: 200px">
+                <!-- <div id="uploadmessage"> -->
+
+    </div>
+    </fieldset>
+    </form>
+    </div>
+
+
+    <!-- <table>
+            <tr>
+                <td>
+                    Post Notice
+                </td>
+
+            </tr>
+
+            <tr>
+                <input type="text" id="postDescription" placeholder="Post Notice Description Here">
+            </tr>
+
+            <tr>
+                <td>
+                    <button type="button" id="btnNotice">Post</button>
+                </td>
+            </tr>
+        </table> -->
+
+
+
+
+
+
+    <div id="All Students">
+        <h1>Enrolled Student List</h1>
+
+        <table id="StudentList" class="table table-hover table-condensed" border="1">
+            <thead>
+                <tr>
+                    <th style="width:50%">Student Id</th>
+                    <th style="width:10%">Student Email</th>
+                    <th style="width:10%">Student Status</th>
+                </tr>
+            </thead>
+
+
+        </table>
+
+    </div>
+</body>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="Home/vendor/jquery/jquery.min.js"></script>
+<script src="Home/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="notice.js"></script>
+<script src="File.js"></script>
+
+</html>
