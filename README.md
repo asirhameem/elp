@@ -1,4 +1,4 @@
 # elp
 
 Online Learning Platform 
-Done with asp.net and rest api.
+Project completed with asp.net mvc, entity framework and rest api.
